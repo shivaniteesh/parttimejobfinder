@@ -1,0 +1,78 @@
+/* Cardslider.css */
+.cardcontainer {
+    width: 100%;
+    margin: 5px auto;
+    height: 100vh;
+    padding: 20px;
+
+  }
+  .carousel{
+    height: 50vh;
+    box-shadow: 0 0 9px;
+  }
+  .carousel .slide {
+    text-align: center;
+    height: auto; /* Increased height */
+    background: #f4f4f4;
+    border-radius: 12px;
+  }
+  .card-link{
+    background-color: white;
+  }
+  
+  .carousel .control-arrow {
+    background: rgba(0, 0, 0, 0.2);
+    width:20vh;
+
+  }
+  
+  .carousel .control-dots {
+    bottom: -30px;
+  }
+  .slider-wrapper{
+    height: 50vh;
+  }
+  .card-item {
+    text-align: center;
+    background-color:white;
+    margin-right: 9px;
+    padding: 30px; /* Increased padding */
+    border-radius: 12px;
+    box-shadow: 0px 0 9px grey;
+    height:90vh /* Ensures full height for each card */
+  }
+  .w{
+    background-color: white;
+  }
+  .aa{
+    margin-top: 60px;
+    text-decoration: underline;
+    color: blue;
+  }
+  .aa:hover{
+    scale: 0.7;
+   cursor: grab;
+  }
+  .badge {
+    padding: 10px 15px; /* Increased padding */
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    background-color: magenta;
+  }
+  
+  .filters{
+    color: grey;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 0 0 9px;
+  }
+  .card-title {
+    font-size: 1.5rem; /* Larger font size for title */
+    margin-bottom: 15px;
+    background-color: white;
+    margin-top: 9px;
+    margin-bottom: 40px;
+  }
+  
