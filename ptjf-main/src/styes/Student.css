@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+    
+    height: 100%;
+  }
+
+.student{
+    height: 100%;
+  }
+.snav{
+    background-color: black;
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.navlist:hover{
+  cursor: grab;
+  scale: 1.2;
+}
+.active-icon{
+  background-color: blue;
+  padding: 10px;
+  border-radius: 50%;
+}
+  .content{
+    min-height: 100vh;
+    background-color: white;
+    
+  }
+ 
+
