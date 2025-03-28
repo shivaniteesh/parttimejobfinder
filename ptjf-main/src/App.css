@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+
+}
+.button{
+  animation: sildein 1s ease-in-out forwards;
+}
+@keyframes slidein {
+  0%{
+    transform: translateX(-100px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+
