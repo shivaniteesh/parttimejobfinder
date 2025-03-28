@@ -1,0 +1,78 @@
+.admin{
+    background-color: white;
+}
+.anav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:black;
+    color:white;
+    position: sticky;
+    width: 100vw;
+}
+.list:hover{
+    scale:0.9;
+    cursor: pointer;
+}
+.greet{
+    color: magenta;
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadein 2s normal;
+}
+.scrollcontainer{
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    min-width: 100vw;
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.Students,.Employers,.Stats,.Feedback,.Job-Postings,.greet{
+    min-height: 100vh;
+    min-width: 100vw;
+    box-shadow: 0px 1px 20px gray;
+}
+.Stats{
+   display:grid;
+   grid-template-columns:repeat(2,1fr);
+   gap:30px;
+   padding :10px;
+}
+.statslabel{
+    font-size: 30px;
+    box-shadow:0 0 9px;
+}
+td ,th{
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+}
+.at{
+    width: 100%;
+    height: auto;
+    table-layout: fixed;
+    margin-top: 40px;
+    overflow-x:scroll;
+    overflow-y:scroll;
+}
+.Students,.Employers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}

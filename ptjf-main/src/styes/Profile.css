@@ -1,0 +1,40 @@
+.content{
+    background-color:grey;
+}
+.profile{
+    border: 9px;
+}
+.i{
+    border-radius: 50%;
+}
+.pname{
+    background-color: magenta;
+}
+.p{
+    background-color: white;
+    min-height: 5px;
+    text-align: center;
+}
+.l{
+    background-color: white;
+    box-shadow: 0px 2px 9px black;
+    height: 20px;
+    width: 100%;
+    background-color: grey;
+}
+.one{
+    background-color: white;
+    height: 30vh;
+    box-shadow: 0px 2px 9px black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.two{
+    background-color: white;
+    height: 70vh;
+    box-shadow: 0px 2px 9px black;
+    padding: 25px;
+}

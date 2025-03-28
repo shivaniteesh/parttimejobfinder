@@ -1,0 +1,67 @@
+.container {
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      padding: 1rem;
+    }
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+  
+  .applicants-list {
+    overflow-x: auto;
+  }
+  
+  .applicants-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .applicants-table th,
+  .applicants-table td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .applicants-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .view-details,
+  .view-cv,
+  .hire-button {
+    padding: 0.25rem;
+    border-radius: 9999px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .view-details:hover,
+  .view-cv:hover,
+  .hire-button:hover,
+  .view-details:focus,
+  .view-cv:focus,
+  .hire-button:focus {
+    background-color: #d1d5db;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

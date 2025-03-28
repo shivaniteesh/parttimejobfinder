@@ -1,0 +1,29 @@
+.postjob-container{
+   
+    background-color: grey;
+    
+}
+#form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    margin-top: 10px;
+  
+    max-width: 80%;
+}
+.input{
+    max-width: 80%;
+}
+#but{
+    background-color: rgb(174,222,213);
+}
+
+.post{
+    background-color:blue;
+}
+.post:hover{
+    scale:1.2;
+}

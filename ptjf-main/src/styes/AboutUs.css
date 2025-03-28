@@ -1,0 +1,83 @@
+
+.Home{
+    background-color: rgb(174,222,213);
+    display:flex;
+    padding:30px;
+    height: 100vh;
+    width: 100vw;
+}
+.welcome{
+    padding:90px;
+}
+.getStarted{
+    width: 40%;
+    box-shadow: 10px 10px 15px rgba(0,0,0,1);
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: slideTop 2s forwards;
+    padding: 30px;
+    background-color: rgba(174,222,213,0.2);
+    display: inline;
+}
+.img{
+    align-items: center;
+}
+@keyframes slideTop {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+button{
+    background-color:rgba(0,128,128);
+    color: white;
+}
+button:hover {
+    display: block;
+    filter: drop-shadow(0 0 10px #fffdef);
+    box-shadow: 10px 10px 15px rgba(0,128,128,1);
+}
+.about-us-container{
+    color: white;
+    width: 60%;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+    box-shadow: 10px 10px 15px rgba(0,0,0,1);
+    opacity: 0;
+    transform: translateY(100px);
+    animation: slidedown 2s forwards;
+    padding: 30px;
+}
+@keyframes slidedown {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.about-us-heading{
+    width: 100%;
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    animation: typing 3s steps(12,end),cursor .3s steps(12,end) infinite;
+    font-size: 30px;
+  
+}
+@keyframes typing {
+    from{width: 0;}
+}
+@keyframes cursor {
+    50%{border-color: transparent;}
+}
+  
+
+
+

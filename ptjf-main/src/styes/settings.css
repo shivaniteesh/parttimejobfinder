@@ -1,0 +1,70 @@
+.content{
+    box-shadow: 0px 2px 9px black;
+    background-color: white;
+}
+.settings{
+    padding: 20px;
+
+}
+.contact-us{
+    box-shadow: 0px 2px 9px gray;
+    min-height: 25vh;
+    padding: 10px;
+}
+.feedback{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#feedback{
+    width: 70%;
+    border-color: white;
+    box-shadow: 0 0 3px;
+}
+.settings.dark{
+    background-color: #333;
+    color: #fff;
+}
+.theme-settings{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.theme-settings input[type="checkbox"]{
+    display: none;
+}
+.slider{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 34px;
+}
+.slider::before{
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+input:checked+ .slider{
+    background-color: #2196F3;
+}
+input:focus + .slider{
+    box-shadow: 0 0 1px #2196F3;
+}
+input:checked+ .slider::before{
+    transform: translateX(20px);
+}
+.language-settings{
+    margin-bottom: 10px;
+}
+.delete-account{
+    margin-bottom: 10px;
+}
